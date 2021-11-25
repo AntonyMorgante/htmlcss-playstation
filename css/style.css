@@ -49,6 +49,10 @@ header .fixed-top{
     min-height:675px;
 }
 
-#jumbo .container-sm .row{
-    padding:400px 0 50px;
+#jumbo .container-fluid .row{
+    padding:250px 0 0;
+}
+
+.ms-game-logo{
+    width: 100%;
 }
