@@ -1,0 +1,40 @@
+header .fixed-top{
+    z-index: 99;
+}
+
+.ms-sony{
+    height:15px;
+}
+
+.ms-chevron{
+    display: inline-block;
+    height:12px;
+    width:12px;
+}
+
+.hidden{
+    display: none;
+}
+
+.chevron-menu{
+    position:absolute;
+    top:100%;
+    left:0;
+}
+
+.ms-half-rotate{
+    transform: rotate(0.5turn);
+}
+
+.ms-chevron-hover:hover .hidden-hover{
+    display: none;
+}
+
+.ms-chevron-hover:hover .hidden{
+    display: inline-block;
+}
+
+.ms-lens{
+    width:32px;
+    height:32px;
+}
