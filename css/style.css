@@ -13,13 +13,13 @@ header .fixed-top{
     width:12px;
 }
 
-.hidden{
+.ms-hidden{
     display: none;
 }
 
-.chevron-menu{
+.ms-chevron-menu{
     position:absolute;
-    top:100%;
+    top:75%;
     left:0;
 }
 
@@ -27,12 +27,16 @@ header .fixed-top{
     transform: rotate(0.5turn);
 }
 
-.ms-chevron-hover:hover .hidden-hover{
+.ms-chevron-hover:hover .ms-hidden-hover{
     display: none;
 }
 
-.ms-chevron-hover:hover .hidden{
+.ms-chevron-hover:hover .ms-hidden{
     display: inline-block;
+}
+
+.ms-shadow-hover:hover{
+    box-shadow: 2px 2px 4px rgb(125,125,125);
 }
 
 .ms-lens{
@@ -55,4 +59,15 @@ header .fixed-top{
 
 .ms-game-logo{
     width: 100%;
+}
+
+/* Hardware section layout */
+#hardware .image-container img{
+    width:100%;
+    border-radius:30px;
+    padding:1px;
+}
+
+.ms-rounded{
+    border-radius:30px;
 }
