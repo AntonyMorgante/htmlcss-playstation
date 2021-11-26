@@ -70,7 +70,7 @@ header .fixed-top{
     height:32px;
 }
 
-/* Games section layout */
+/* Jumbo layout */
 #jumbo{
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
@@ -98,4 +98,13 @@ header .fixed-top{
 
 .ms-rounded{
     border-radius:30px;
+}
+
+.ms-img-hovered{
+    top:0;
+    transition: top 1s;
+}
+
+.ms-img-hover:hover .ms-img-hovered{
+    top:-15px;
 }
