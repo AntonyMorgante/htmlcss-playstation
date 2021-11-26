@@ -11,6 +11,14 @@
     border: 1px solid white;
 }
 
+.ms-black-button{
+    transition:border 0.5s;
+}
+
+.ms-black-button:focus{
+    border: 1px solid black;
+}
+
 .ms-button-padding{
     padding:2px;
 }
@@ -169,4 +177,9 @@ header .fixed-top{
 /* Play store section */
 #play-store .ms-margin{
     margin:50px auto;
+}
+
+/* Playstation now section */
+#playstation-now{
+    background-color:rgb(22,28,59)
 }
