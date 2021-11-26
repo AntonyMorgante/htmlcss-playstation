@@ -188,3 +188,21 @@ header .fixed-top{
 #socials .ms-margin{
     margin:50px auto;
 }
+
+/* Footer layout */
+footer{
+    background-color: rgb(0,67,156);
+}
+
+footer .container-fluid{
+    margin:50px auto;
+}
+
+.ms-footer-logo{
+    filter: brightness(0) invert(1);
+}
+
+.ms-globe{
+    width:2em;
+    padding-right:10px;
+}
