@@ -156,3 +156,12 @@ header .fixed-top{
 #explore .ms-margin{
     margin:50px auto;
 }
+
+/* Playstation plus section */
+#playstation-plus{
+    background-color: rgb(190,188,187);
+}
+
+.ms-button-2{
+    background-color: rgb(217,218,220);
+}
