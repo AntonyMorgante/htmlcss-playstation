@@ -90,6 +90,10 @@ header .fixed-top{
 }
 
 /* Hardware section layout */
+#hardware{
+    margin-bottom: 30px;
+}
+
 #hardware .image-container img{
     width:100%;
     border-radius:30px;
@@ -111,4 +115,27 @@ header .fixed-top{
 
 #hardware .ms-margin{
     margin:150px 0 50px;
+}
+
+.ms-greyscale{
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.ms-greyscale:hover{
+    opacity: 1;
+}
+
+#bottom-bar{
+    position:relative;
+}
+
+#bottom-bar::after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:2px;
+    background-color: blue;
 }
