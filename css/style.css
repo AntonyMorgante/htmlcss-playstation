@@ -79,7 +79,7 @@ header .fixed-top{
     min-height:675px;
 }
 
-#jumbo .container-lg .row{
+#jumbo .container-sm .row{
     position:relative;
     top:150px;
     left:0;
