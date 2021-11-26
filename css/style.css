@@ -165,3 +165,8 @@ header .fixed-top{
 .ms-button-2{
     background-color: rgb(217,218,220);
 }
+
+/* Play store section */
+#play-store .ms-margin{
+    margin:50px auto;
+}
