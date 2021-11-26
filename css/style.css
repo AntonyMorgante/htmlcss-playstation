@@ -108,3 +108,7 @@ header .fixed-top{
 .ms-img-hover:hover .ms-img-hovered{
     top:-15px;
 }
+
+#hardware .ms-margin{
+    margin:150px 0 50px;
+}
