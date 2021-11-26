@@ -1,3 +1,20 @@
+/* General layout */
+.ms-link-hover:hover{
+    color:blue !important;
+}
+
+.ms-button{
+    transition:border 0.5s;
+}
+
+.ms-button:focus{
+    border: 1px solid white;
+}
+
+.ms-button-padding{
+    padding:2px;
+}
+
 /* Header layout */
 header .fixed-top{
     z-index: 99;
@@ -18,8 +35,9 @@ header .fixed-top{
 }
 
 .ms-chevron-menu{
+    width:100vw;
     position:absolute;
-    top:75%;
+    top:100%;
     left:0;
 }
 
@@ -27,12 +45,16 @@ header .fixed-top{
     transform: rotate(0.5turn);
 }
 
-.ms-chevron-hover:hover .ms-hidden-hover{
+.ms-chevron-hover:focus .ms-hidden-hover{
     display: none;
 }
 
-.ms-chevron-hover:hover .ms-hidden{
+.ms-chevron-hover:focus .ms-hidden{
     display: inline-block;
+}
+
+.ms-shadow-hover{
+    width:100%;
 }
 
 .ms-shadow-hover:hover{
@@ -53,8 +75,10 @@ header .fixed-top{
     min-height:675px;
 }
 
-#jumbo .container-fluid .row{
-    padding:250px 0 0;
+#jumbo .container-lg .row{
+    position:relative;
+    top:150px;
+    left:0;
 }
 
 .ms-game-logo{

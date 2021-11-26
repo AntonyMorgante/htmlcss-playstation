@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div id="navbar" class="row">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt=""></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,46 +26,301 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item ms-chevron-hover">
-                                    <a class="nav-link active" aria-current="page" href="#">
-                                        Giochi 
-                                        <img class="ms-chevron ms-hidden-hover" src="img/chevron-down-solid.svg" alt="#">
-                                        <img class="ms-chevron ms-hidden ms-half-rotate" src="img/chevron-down-solid-hover.svg" alt="">
-                                    </a>
-                                    <div class="container-fluid ms-hidden ms-chevron-menu bg-light">
-                                        <div class="row justify-content-center border-bottom">
-                                            <div class="col-1">
-                                                <img class="ms-shadow-hover" src="img/play-menu-ico.png" alt="">
-                                                <p class="text-center">PS1</p>
-                                            </div>
-                                            <div class="col-1">
-                                                <img class="ms-shadow-hover" src="img/play-menu-ico.png" alt="">
-                                                <p class="text-center">PS1</p>
-                                            </div>
-                                            <div class="col-1">
-                                                <img class="ms-shadow-hover" src="img/play-menu-ico.png" alt="">
-                                                <p class="text-center">PS1</p>
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-center py-2">
-                                            <div class="col-1">
-                                                <a class="text-decoration-none text-black" href="#">Sub link Home <img class="ms-chevron" src="img/chevron-down-solid.svg" alt=""></a>
-                                            </div>
-                                            <div class="col-1">
-                                                <a class="text-decoration-none text-black" href="#">Sub link Home <img class="ms-chevron" src="img/chevron-down-solid.svg" alt=""></a>
-                                            </div>
-                                            <div class="col-1">
-                                                <a class="text-decoration-none text-black" href="#">Sub link Home <img class="ms-chevron" src="img/chevron-down-solid.svg" alt=""></a>
-                                            <div>
-                                        </div>
+                                <li class="nav-item p-2">
+                                    <div class="dropdown position-static">
+                                        <button class="btn ms-chevron-hover shadow-none" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Giochi
+                                            <img src="img/chevron-down-solid.svg" alt="" class="ms-chevron ms-hidden-hover">
+                                            <img src="img/chevron-down-solid-hover.svg" alt="" class="ms-chevron ms-half-rotate ms-hidden">
+                                        </button>
+                                        <ul class="dropdown-menu ms-chevron-menu m-0 p-0 py-2 bg-white border-0" aria-labelledby="dropdownMenu2" data-bs-offset="10,20">
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row justify-content-center align-center text-center">
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row text-center py-2">
+                                                        <ul class="col-12 list-group list-group-horizontal justify-content-center">
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <div class="dropdown position-static">
+                                        <button class="btn ms-chevron-hover shadow-none" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Hardware
+                                            <img src="img/chevron-down-solid.svg" alt="" class="ms-chevron ms-hidden-hover">
+                                            <img src="img/chevron-down-solid-hover.svg" alt="" class="ms-chevron ms-half-rotate ms-hidden">
+                                        </button>
+                                        <ul class="dropdown-menu ms-chevron-menu m-0 p-0 py-2 bg-white border-0" aria-labelledby="dropdownMenu2" data-bs-offset="10,20">
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row justify-content-center align-center text-center">
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row text-center py-2">
+                                                        <ul class="col-12 list-group list-group-horizontal justify-content-center">
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <div class="dropdown position-static">
+                                        <button class="btn ms-chevron-hover shadow-none" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Servizi
+                                            <img src="img/chevron-down-solid.svg" alt="" class="ms-chevron ms-hidden-hover">
+                                            <img src="img/chevron-down-solid-hover.svg" alt="" class="ms-chevron ms-half-rotate ms-hidden">
+                                        </button>
+                                        <ul class="dropdown-menu ms-chevron-menu m-0 p-0 py-2 bg-white border-0" aria-labelledby="dropdownMenu2" data-bs-offset="10,20">
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row justify-content-center align-center text-center">
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row text-center py-2">
+                                                        <ul class="col-12 list-group list-group-horizontal justify-content-center">
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <div class="dropdown position-static">
+                                        <button class="btn ms-chevron-hover shadow-none" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Novità
+                                            <img src="img/chevron-down-solid.svg" alt="" class="ms-chevron ms-hidden-hover">
+                                            <img src="img/chevron-down-solid-hover.svg" alt="" class="ms-chevron ms-half-rotate ms-hidden">
+                                        </button>
+                                        <ul class="dropdown-menu ms-chevron-menu m-0 p-0 py-2 bg-white border-0" aria-labelledby="dropdownMenu2" data-bs-offset="10,20">
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row justify-content-center align-center text-center">
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row text-center py-2">
+                                                        <ul class="col-12 list-group list-group-horizontal justify-content-center">
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <div class="dropdown position-static">
+                                        <button class="btn ms-chevron-hover shadow-none" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Fai acquisti
+                                            <img src="img/chevron-down-solid.svg" alt="" class="ms-chevron ms-hidden-hover">
+                                            <img src="img/chevron-down-solid-hover.svg" alt="" class="ms-chevron ms-half-rotate ms-hidden">
+                                        </button>
+                                        <ul class="dropdown-menu ms-chevron-menu m-0 p-0 py-2 bg-white border-0" aria-labelledby="dropdownMenu2" data-bs-offset="10,20">
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row justify-content-center align-center text-center">
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row text-center py-2">
+                                                        <ul class="col-12 list-group list-group-horizontal justify-content-center">
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <div class="dropdown position-static">
+                                        <button class="btn ms-chevron-hover shadow-none" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Supporto
+                                            <img src="img/chevron-down-solid.svg" alt="" class="ms-chevron ms-hidden-hover">
+                                            <img src="img/chevron-down-solid-hover.svg" alt="" class="ms-chevron ms-half-rotate ms-hidden">
+                                        </button>
+                                        <ul class="dropdown-menu ms-chevron-menu m-0 p-0 py-2 bg-white border-0" aria-labelledby="dropdownMenu2" data-bs-offset="10,20">
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row justify-content-center align-center text-center">
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row text-center py-2">
+                                                        <ul class="col-12 list-group list-group-horizontal justify-content-center">
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </li>
                             </ul>
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> 
+                                <li class="nav-item p-2">
+                                    <div class="dropdown position-static">
+                                        <button class="btn ms-chevron-hover shadow-none" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                            My Playstation
+                                            <img src="img/chevron-down-solid.svg" alt="" class="ms-chevron ms-hidden-hover">
+                                            <img src="img/chevron-down-solid-hover.svg" alt="" class="ms-chevron ms-half-rotate ms-hidden">
+                                        </button>
+                                        <ul class="dropdown-menu ms-chevron-menu m-0 p-0 py-2 bg-white border-0" aria-labelledby="dropdownMenu2" data-bs-offset="10,20">
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row justify-content-center align-center text-center">
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <img class="ms-shadow-hover" src="img/play-menu-ico.png">
+                                                            <p>PS1</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <div class="row text-center py-2">
+                                                        <ul class="col-12 list-group list-group-horizontal justify-content-center">
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                            <li class="list-group-item border-0"><a class="text-decoration-none text-black ms-link-hover" href="#">link acquisti</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item p-2">
+                                    <div class="ms-button-padding bg-dark rounded-pill">
+                                        <button type="button" class="btn btn-dark rounded-pill shadow-none ms-button">Accedi</button>
+                                    </div>
+                                </li>
+                                <li class="nav-item p-2">
                                     <img class="ms-lens" src="img/lens.svg" alt="">
                                 </li>
                             </ul>
@@ -76,8 +331,8 @@
         </div>
     </header>
     <section id="jumbo" class="">
-        <div class="container-fluid text-white">
-            <div class="row px-4">
+        <div class="container-lg text-white">
+            <div class="row">
                 <div class="col-8 col-md-6 col-lg-4 pb-4">
                     <img class="ms-game-logo" src="img/returnal-hero-banner-logo.png" alt="">
                 </div>
@@ -94,7 +349,7 @@
         </div>
     </section>
     <main>
-        <section id="hardware" class="container-fluid">
+        <section id="hardware" class="container-lg">
             <div class="row px-4 mt-4">
                 <div class="col-6 col-sm-4 col-lg-2 ">
                     <div class="image-container ms-rounded border border-primary border-2 p-1 ">
