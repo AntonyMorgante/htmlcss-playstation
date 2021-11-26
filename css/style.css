@@ -141,5 +141,13 @@ header .fixed-top{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     background-position: center;
-    min-height:675px;
+}
+ 
+/* New games section */
+#newgames{
+    background-color: rgb(31,31,31);
+}
+
+#newgames .ms-rounded{
+    border-radius:30px;
 }
