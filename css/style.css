@@ -151,3 +151,8 @@ header .fixed-top{
 #newgames .ms-rounded{
     border-radius:30px;
 }
+
+/* Explore section */
+#explore .ms-margin{
+    margin:50px auto;
+}
