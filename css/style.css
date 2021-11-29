@@ -1,30 +1,61 @@
 /* General layout */
-.ms-link-hover:hover{
-    color:blue !important;
+.ms-blue-hover:hover{
+    color:rgb(0,55,209);
 }
 
+.ms-blue-focus:focus{
+    color:rgb(0,55,209);
+}
+
+.ms-cursor-hover:hover{
+    cursor: pointer;
+}
+
+/* Buttons layout */
 .ms-button{
-    transition:border 0.5s;
+    display: inline-block;
+    padding: 5px 10px;
 }
 
-.ms-button:focus{
-    border: 1px solid white;
+.ms-blackwhite {
+    box-shadow: 0 0 0 3px black;
+    background-color: black;
+    transition: box-shadow 1s, background-color 1s;
 }
 
-.ms-black-button{
-    transition:border 0.5s;
+.ms-blackwhite:hover{
+    box-shadow: 0 0 0 3px rgb(60,60,60), inset 0 0 0 2px white; 
+    background-color: rgb(60,60,60);
 }
 
-.ms-black-button:focus{
-    border: 1px solid black;
-}
-
-.ms-button-padding{
-    padding:2px;
-}
-
-.ms-red{
+.ms-redblack{
     background-color: rgb(205,61,15);
+    box-shadow: 0 0 0 3px rgb(205,61,15);
+    transition: box-shadow 1s;
+}
+
+.ms-redblack:hover{
+    box-shadow: 0 0 0 3px rgb(205,61,15), inset 0 0 0 2px black; 
+}
+
+.ms-bluewhite{
+    background-color: #0d6efd;
+    box-shadow: 0 0 0 3px #0d6efd;
+    transition: box-shadow 1s;
+}
+
+.ms-bluewhite:hover{
+    box-shadow: 0 0 0 3px #0d6efd, inset 0 0 0 2px white; 
+}
+
+.ms-whiteblack{
+    background-color: white;
+    box-shadow: 0 0 0 3px white;
+    transition: box-shadow 1s;
+}
+
+.ms-whiteblack:hover{
+    box-shadow: 0 0 0 3px white, inset 0 0 0 2px black; 
 }
 
 /* Header layout */
@@ -47,14 +78,10 @@ header .fixed-top{
 }
 
 .ms-chevron-menu{
-    width:100vw;
+    width:calc(100vw - 64px);
     position:absolute;
     top:100%;
     left:0;
-}
-
-.ms-half-rotate{
-    transform: rotate(0.5turn);
 }
 
 .ms-chevron-hover:focus .ms-hidden-hover{
@@ -65,8 +92,16 @@ header .fixed-top{
     display: inline-block;
 }
 
-.ms-shadow-hover{
-    width:100%;
+.ms-chevron-hover:hover .ms-hidden-hover{
+    display: none;
+}
+
+.ms-chevron-hover:hover .ms-hidden{
+    display: inline-block;
+}
+
+.ms-chevron-hover:focus .ms-half-rotate{
+    transform: rotate(0.5turn);
 }
 
 .ms-shadow-hover:hover{
@@ -88,9 +123,7 @@ header .fixed-top{
 }
 
 #jumbo .container-sm .row{
-    position:relative;
-    top:150px;
-    left:0;
+    padding-top:320px;
 }
 
 /* Hardware section layout */
@@ -160,6 +193,10 @@ header .fixed-top{
     border-radius:30px;
 }
 
+#newgames .ms-margin{
+    margin:15px auto;
+}
+
 /* Explore section */
 #explore .ms-margin{
     margin:50px auto;
@@ -173,6 +210,16 @@ header .fixed-top{
 .ms-button-2{
     background-color: rgb(217,218,220);
 }
+
+.ms-button-2:hover{
+    background-color: rgb(217,218,220);
+}
+
+
+.ms-button-2:focus{
+    background-color: rgb(217,218,220);
+}
+
 
 /* Play store section */
 #play-store .ms-margin{
@@ -194,10 +241,6 @@ footer{
     background-color: rgb(0,67,156);
 }
 
-footer .container-fluid{
-    margin:50px auto;
-}
-
 .ms-footer-logo{
     filter: brightness(0) invert(1);
 }
@@ -206,3 +249,20 @@ footer .container-fluid{
     width:2em;
     padding-right:10px;
 }
+
+@media only screen and (min-width: 768px){
+    #jumbo .container-sm .row{
+        padding-top:320px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .ms-chevron-menu{
+        width:100vw;
+    }
+
+    #jumbo .container-sm .row{
+        padding-top:250px;
+    }
+}
+
